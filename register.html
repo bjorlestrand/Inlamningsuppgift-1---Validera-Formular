@@ -37,21 +37,24 @@
 
             <div id="email_div" class="mb-3">
                 <label for="email">E-postaddress:</label>
-                <input id="email" type="email" name="email" class="form-control" placeholder="Ange din E-postaddress" required>
+                <input id="email" type="email" name="email" class="form-control" placeholder="Ange din E-postaddress"
+                    required>
                 <div id="email-invalid-feedback" class="invalid-feedback">
                     Du måste ange din E-postaddress.
                 </div>
             </div>
             <div id="password_div" class="mb-3">
                 <label for="password">Lösenord:</label>
-                <input id="password" type="password" name="password" class="form-control" placeholder="Ange ett lösenord" required>
+                <input id="password" type="password" name="password" class="form-control" placeholder="Ange ett lösenord"
+                    required>
                 <div id="password-invalid-feedback" class="invalid-feedback">
                     Du måste ange ett lösenord.
                 </div>
             </div>
             <div id="pass_confirm_div" class="mb-3">
                 <label for="passwordConfirm">Bekräfta lösenord:</label>
-                <input id="passwordConfirm" type="password" name="passwordConfirm" class="form-control" placeholder="Ange lösenordet igen" required>
+                <input id="passwordConfirm" type="password" name="passwordConfirm" class="form-control" placeholder="Ange lösenordet igen"
+                    required>
                 <div id="passwordConfirm-invalid-feedback" class="invalid-feedback">
                     Du måste ange lösenordet igen.
                 </div>
@@ -88,6 +91,9 @@
                         <option value="Kvinna">Kvinna</option>
                         <option value="Annat">Annat</option>
                     </select>
+                    <div id="gender-invalid-feedback" class="invalid-feedback">
+                        Du måste ange ditt kön.
+                    </div>
                 </div>
             </div>
 
@@ -118,7 +124,8 @@
 
             <div class="row">
                 <label class="col-md-9 mb-3">Hur fick du reda på oss:</label>
-                <textarea class="form-control mb-3" id="foundUs" rows="4" placeholder="Skriv kort om hur du fick reda på våran hemsida. Ex. tips från kollega eller från en reklam." required></textarea>
+                <textarea class="form-control mb-3" id="foundUs" rows="4" placeholder="Skriv kort om hur du fick reda på våran hemsida. Ex. tips från kollega eller från en reklam."
+                    required></textarea>
             </div>
             <div id="foundUs-invalid-feedback" class="invalid-feedback">
                 Textrutan måste fyllas i.
@@ -126,13 +133,13 @@
 
             <div class="form-group">
                 <div class="custom-control custom-checkbox is-invalid">
-                   <input class="custom-control-input" type="checkbox" name="terms" id="terms" value="" required>
-                   <label class="custom-control-label" for="terms">Godkänn allmänna villkor.</label>
+                    <input class="custom-control-input" type="checkbox" name="terms" id="terms" value="" required>
+                    <label class="custom-control-label" for="terms">Godkänn allmänna villkor.</label>
                     <div id="terms-invalid-feedback" class="invalid-feedback">
                         Du måste godkänna allmänna villkoren för att kunna fortsätta.
                     </div>
                 </div>
-             </div>
+            </div>
 
             <div>
                 <input type="submit" name="register" value="Slutför registrering" class="btn btn-color2019 btn-lg btn-block">
@@ -140,9 +147,11 @@
         </form>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
     <script src="js/script.js"></script>
 </body>

@@ -41,6 +41,26 @@ $(function () {
             }
         }
 
+        if ($(input).attr("type") === "text" && $(input).prop("required")) {
+
+            if ($(input).data("id") === "firstName") {
+                validateInputValue(input);
+            } else {
+                min = 2;
+                validateInputValue(input, `Måste bestå av minst 2 bokstäver.`, min);
+            }
+        }
+
+        if ($(input).attr("type") === "text" && $(input).prop("required")) {
+
+            if ($(input).data("id") === "lastName") {
+                validateInputValue(input);
+            } else {
+                min = 2;
+                validateInputValue(input, `Måste bestå av minst 2 bokstäver.`, min);
+            }
+        }
+
         if ($(input).attr("type") === "email" && $(input).prop("required")) {
             validateEmail(input);
         }
