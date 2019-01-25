@@ -1,0 +1,76 @@
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #384047;
+    background: white;
+}
+
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #f5efef;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #ff6f61;
+    box-shadow: 0 0 10px rgb(0,0,0,0.4);
+}
+
+h4 {
+    font-size: 28px;
+    margin: 15px 0 60px 0;
+    text-align: center;
+}
+
+h4 span {
+    border-bottom: 2px solid #ff6f61;
+    padding:1px 0
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #ffffff;
+    border-color:#ff6d70;
+    background-color:#ff6d70;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem rgba(255, 111, 97, 0.5);
+}
+
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+    border-color: #ff6d70;
+}
+
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+    color:#ffffff;
+    background-color:#ff6d70;
+    border-color:#ff6d70;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+textarea {
+    resize: none;
+}
+
+select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+.btn-color2019 {
+    color: #ffffff;
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+}
+
+.btn-color2019:hover {
+    color: #ffffff;
+    background-color: #e26567;
+    border-color: #e26567; 
+}
